@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link type="text/css" rel="stylesheet" href="theme.css"/>
+	<meta name="format" content="complete"/>
+	<title>A Website</title>
+</head>
+<body>
+
+<h1 id="kavonfarvardin">Kavon Farvardin</h1>
+
+<p><img style="float: right" src="images/duck.jpg" /></p>
+
+<p>Paragraphs are separated by a blank line.</p>
+
+<p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, <code>monospace</code>. Itemized lists
+look like:</p>
+
+<ul>
+<li>this one</li>
+<li>that one</li>
+<li>the other one</li>
+</ul>
+
+<p>Note that &#8212; not considering the asterisk &#8212; the actual text
+content starts at 4-columns in.</p>
+
+<blockquote>
+<p>Block quotes are
+written like so.</p>
+
+<p>They can span multiple paragraphs,
+if you like.</p>
+</blockquote>
+
+<p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex. &#8220;it&#8217;s all in
+chapters 12&#8211;14&#8221;). Three dots &#8230; will be converted to an ellipsis.</p>
+
+<table>
+<colgroup>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:left;">Option</th>
+	<th style="text-align:left;">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:left;">data</td>
+	<td style="text-align:left;">path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">engine</td>
+	<td style="text-align:left;">engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">ext</td>
+	<td style="text-align:left;">extension to be used for dest files.</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="anh2header">An h2 header</h2>
+
+<p>Here&#8217;s a numbered list:</p>
+
+<ol>
+<li>first item</li>
+<li>second item</li>
+<li>third item</li>
+</ol>
+
+<p>Note again how the actual text starts at 4 columns in (4 characters
+from the left side). Here&#8217;s a code sample:</p>
+
+<pre><code># Let me re-iterate ...
+for i in 1 .. 10 { do-something(i) }
+</code></pre>
+
+<p>As you probably guessed, indented 4 spaces. By the way, instead of
+indenting the block, you can use delimited blocks, if you like:</p>
+
+<p>(which makes copying &amp; pasting easier). You can optionally mark the
+delimited block for Pandoc to syntax highlight it:</p>
+
+<h3 id="anh3header">An h3 header</h3>
+
+<p>Now a nested list:</p>
+
+<ol>
+<li><p>First, get these ingredients:</p>
+
+<ul>
+<li>carrots</li>
+<li>celery</li>
+<li>lentils</li>
+</ul></li>
+<li><p>Boil some water.</p></li>
+<li><p>Dump everything in the pot and follow
+this algorithm:</p>
+
+<pre><code>find wooden spoon
+uncover pot
+stir
+cover pot
+balance wooden spoon precariously on pot handle
+wait 10 minutes
+goto first step (or shut off burner when done)
+</code></pre>
+
+<p>Do not bump wooden spoon or it will fall.</p></li>
+</ol>
+
+<p>Notice again how text always lines up on 4-space indents (including
+that last line which continues item 3 above). Here&#8217;s a link to <a href="http://foo.bar">a
+website</a>. Here&#8217;s a link to a <a href="local-doc.html">local
+doc</a>. Here&#8217;s a footnote <a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a>.</p>
+
+<p>Again, text is indented 4 spaces. (Alternately, put blank lines in
+between each of the above definition list lines to spread things
+out more.)</p>
+
+<p>Done.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn:1">
+<p>Footnote text goes here. <a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+
+</body>
+</html>
