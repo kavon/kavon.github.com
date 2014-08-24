@@ -1,4 +1,6 @@
 CSS: theme.css
+Format: complete
+Title: Kavon Farvardin
 HTML header: <link rel="icon" type="image/png" href="images/duck.png" /> <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -7,9 +9,6 @@ HTML header: <link rel="icon" type="image/png" href="images/duck.png" /> <script
   ga('create', 'UA-54134144-1', 'auto');
   ga('send', 'pageview');
   </script>
-Format: complete
-Title: Kavon Farvardin
-
 
 
 Kavon Farvardin  <img style="float: right" src="images/jaypeg.png" height="250" width="187" border="1"/>  
