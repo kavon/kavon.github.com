@@ -16,20 +16,18 @@ HTML header: <link rel="icon" type="image/png" href="images/duck.png" />
 Kavon Farvardin  <img style="float: right" src="images/jaypeg.png" height="250" width="187" border="1"/>  
 ============
 
-&nbsp;&nbsp;&nbsp;&nbsp;I am a first year PhD student in the [Department of Computer Science](http://cs.uchicago.edu/) at the 
-[University of Chicago](http://uchicago.edu/).
+&nbsp;&nbsp;&nbsp;&nbsp;I am a first year PhD student in the <a href="http://cs.uchicago.edu/" target="_blank">Department of Computer Science</a> at the 
+<a href="http://uchicago.edu/" target="_blank">University of Chicago</a>.
 
 &nbsp;&nbsp;&nbsp;&nbsp;I am interested in programming languages and their implementations, e.g. compilers,
 although I dabble in topics that fall within the theory of computation as well. I am currently tackling
 issues in parallel computing.
 
-&nbsp;&nbsp;&nbsp;&nbsp;My email is `[my first name]@cs.uchicago.edu` . If you would like to know more about my academic or work experience, [here's a CV](files/cv.pdf).
+&nbsp;&nbsp;&nbsp;&nbsp;My email is `[my first name]@cs.uchicago.edu` . If you would like to know more about my academic or work experience, <a onclick="ga('send','event','File Download','CV')" target="_blank" href="files/cv.pdf">here's a CV</a>.
 
 #### Links
 
-<a href="http://github.com/kavon"
-   onclick="ga('send','event','Outgoing Links','github.com/kavon')" 
-   target="_blank"> 
+<a onclick="ga('send','event','Outgoing Links','github.com/kavon')" target="_blank" href="http://github.com/kavon"> 
    <img src="images/GitHub-Mark-64px.png" height="32" width="32" title="GitHub"> 
 </a>
 
