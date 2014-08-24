@@ -2,6 +2,15 @@ CSS: theme.css
 Format: complete
 Title: Kavon Farvardin
 HTML header: <link rel="icon" type="image/png" href="images/duck.png" />
+<!-- Google Analytics: the modern page hit counter -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-54134144-2', 'auto');
+  ga('send', 'pageview');
+</script>
 
 
 Kavon Farvardin  <img style="float: right" src="images/jaypeg.png" height="250" width="187" border="1"/>  
@@ -18,30 +27,12 @@ issues in parallel computing.
 
 #### Links
 
-<a id="github_link" href="http://github.com/kavon"> <img src="images/GitHub-Mark-64px.png" height="32" width="32" title="GitHub"> </a>
-
-<button id="mybutton">Please click</button>
-
-<!-- Google Analytics: the modern page hit counter -->
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-54134144-2', 'auto');
-  ga('send', 'pageview');
+<a href="http://github.com/kavon"
+   onclick="ga('send','event','Outgoing Links','github.com/kavon')" 
+   target="_blank"> 
+   <img src="images/GitHub-Mark-64px.png" height="32" width="32" title="GitHub"> 
+</a>
 
 
-  function addListener(element, type, callback) {
- 	if (element.addEventListener) element.addEventListener(type, callback);
- 	else if (element.attachEvent) element.attachEvent('on' + type, callback);
-  }
 
-  var downloadLink = document.getElementById('mybutton');
-	addListener(downloadLink, 'click', function() {
-  	ga('send', 'event', 'button', 'click', 'nav-buttons');
-  });
 
-</script>
