@@ -24,7 +24,7 @@ issues in parallel computing.</p>
 
 <p><a id="github_link" href="http://github.com/kavon"> <img src="images/GitHub-Mark-64px.png" height="32" width="32" title="GitHub"> </a></p>
 
-<p><button id="button">Please click</button></p>
+<p><button id="mybutton">Please click</button></p>
 
 <!-- Google Analytics: the modern page hit counter -->
 
@@ -43,7 +43,7 @@ issues in parallel computing.</p>
     else if (element.attachEvent) element.attachEvent('on' + type, callback);
   }
 
-  var downloadLink = document.getElementById('button');
+  var downloadLink = document.getElementById('mybutton');
     addListener(downloadLink, 'click', function() {
     ga('send', 'event', 'button', 'click', 'nav-buttons');
   });
