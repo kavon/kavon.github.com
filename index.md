@@ -18,11 +18,11 @@ issues in parallel computing.
 
 #### Links
 
-<a href="http://github.com/kavon"> <img src="images/GitHub-Mark-64px.png" height="32" width="32" title="GitHub"> </a>
+<a id="github_link" href="http://github.com/kavon"> <img src="images/GitHub-Mark-64px.png" height="32" width="32" title="GitHub"> </a>
 
 
 
-<!-- google analytics, the modern page hit counter -->
+<!-- Google Analytics: the modern page hit counter -->
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -32,5 +32,15 @@ issues in parallel computing.
 
   ga('create', 'UA-54134144-2', 'auto');
   ga('send', 'pageview');
+
+
+  function addListener(element, type, callback) {
+ 	if (element.addEventListener) element.addEventListener(type, callback);
+ 	else if (element.attachEvent) element.attachEvent('on' + type, callback);
+  }
+
+  addListener(document.getElementById('github_link'), 'click', function() {
+  	ga('send', 'event', 'a', 'click', 'github-link');
+  });
 
 </script>
