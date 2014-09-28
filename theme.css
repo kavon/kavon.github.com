@@ -46,7 +46,7 @@ a:active {
 /* code */
 
 pre, code {
-	font-size: 11px; font-family: monaco, courier, consolas, monospace;
+	font-size: 12px; font-family: monaco, courier, consolas, monospace;
 }
 
 pre {
