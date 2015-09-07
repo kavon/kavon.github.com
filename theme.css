@@ -9,29 +9,6 @@ body {
 	font: 13px "Myriad Pro", "Lucida Grande", Lucida, Verdana, sans-serif;
 }
 
-/* links in the header */
-#nameNav a:link {
-	color: #000;
-	text-decoration: none;
-}
-
-#nameNav a:visited {
-	color: #000;
-	text-decoration: none;
-}
-
-#nameNav a:hover {
-	color: #f60;
-	text-decoration: underline;
-}
-	
-#nameNav a:active {
-	color: #f60;
-	text-decoration: underline;
-}
-
-
-
 /* links in the body */
 a:link {
 	color: #00f;
