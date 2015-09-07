@@ -1,7 +1,7 @@
 CSS: ../theme.css
 Format: complete
 Title: Kavon Farvardin
-HTML header: <link rel="icon" type="image/png" href="images/duck.png" />
+HTML header: <link rel="icon" type="image/png" href="../images/duck.png" />
 
 #include "telemetry.html"
 #include "utils.html"
