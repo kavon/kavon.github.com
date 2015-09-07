@@ -18,10 +18,9 @@
 #define NAVBAR(H,B)	H SPACER B
 
 
-<!-- Year-Month-Day converter -->
-#define POST_DATE(M,D,Y)	Y-M-D
+#define POST_DATE(M,D,Y)	*D M Y*
 
 <!-- D is date, N is name, L is link -->
-#define POST_LIST_ITEM(D,N,L) + <big>D => <b><a href=L>N</a></b></big>
+#define POST_LIST_ITEM(D,N,L) INDENT <big>D => <b><a href=L>N</a></b></big>
 
 #endif
