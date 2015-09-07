@@ -14,7 +14,7 @@ INDENT A second-year PhD student studying LINK("http://pl.cs.uchicago.edu/",prog
 
 ##### Research
 
-INDENT I am interested in the *expressiveness* and *implementation performance* of concurrent functional programming languages. I also like to dabble in topics under the theory of computation.
+INDENT I am interested in the *expressiveness* and *performance* of concurrent functional programming languages. I also like to dabble in topics under the theory of computation.
 
 ##### Teaching
 
