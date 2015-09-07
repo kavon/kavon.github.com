@@ -1,0 +1,27 @@
+#ifndef __UTILS__
+#define __UTILS__
+
+<!-- U -> "URL", D -> Description ... opens in a new tab -->
+#define LINK(U,D)	<a href=U target="_blank">D</a>
+
+#define SPACER	&nbsp;&nbsp;
+
+#define INDENT	&nbsp;&nbsp;&nbsp;&nbsp;
+
+<!-- current page in the nav bar is shown with a different link style -->
+
+#define NAV_LINK(U,D)	<a href=U>D</a>
+#define NAV_LINK_CRNT(U,D)	<a href=U style="color: #000; text-decoration: none;">D</a>
+
+#define SMALL(X)	<small><small><small>X</small></small></small>
+
+#define NAVBAR(H,B)	H SPACER B
+
+
+<!-- Year-Month-Day converter -->
+#define POST_DATE(M,D,Y)	Y-M-D
+
+<!-- D is date, N is name, L is link -->
+#define POST_LIST_ITEM(D,N,L) + <big>D => <b><a href=L>N</a></b></big>
+
+#endif

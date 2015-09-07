@@ -4,23 +4,38 @@ Title: Kavon Farvardin
 HTML header: <link rel="icon" type="image/png" href="images/duck.png" />
 
 #include "telemetry.html"
+#include "utils.html"
 
-Kavon Farvardin  <img style="float: right" src="images/jaypeg.png" height="250" width="187" border="1"/>  
+NAVBAR(NAV_LINK_CRNT("index.html",Kavon Farvardin),SMALL(NAV_LINK("plog/index.html",PLog))) <img style="float: right" src="images/jaypeg.png" height="250" width="187" border="1"/>
 ============
 
-&nbsp;&nbsp;&nbsp;&nbsp;I am a first-year PhD student in the <a href="http://pl.cs.uchicago.edu/" target="_blank">programming languages group</a> of the <a href="http://cs.uchicago.edu/" target="_blank">Department of Computer Science</a> at the 
-<a href="http://uchicago.edu/" target="_blank">University of Chicago</a>, and my advisor is <a href="http://people.cs.uchicago.edu/~jhr/" target="_blank">Prof. John Reppy</a>.
+<!-- droppin links to work that PageRank -->
+INDENT A second-year PhD student studying LINK("http://pl.cs.uchicago.edu/",programming languages) with the help of LINK("http://people.cs.uchicago.edu/~jhr/",Prof. John Reppy) in the LINK("http://cs.uchicago.edu/",Department of Computer Science) at the LINK("http://uchicago.edu/",University of Chicago).
 
-&nbsp;&nbsp;&nbsp;&nbsp;I am interested in functional and concurrent programming languages and their efficient implementations. Additionally, I dabble in topics that fall within the theory of computation.
+##### Research
 
-&nbsp;&nbsp;&nbsp;&nbsp;You may contact me at `[my first name]@cs.uchicago.edu` . If you would like to know more about my academic or work experience, <a onclick="ga('send','event','File Download','CV')" target="_blank" href="files/cv.pdf">here is a CV</a>.
+INDENT I am interested in the *expressiveness* and *implementation performance* of concurrent functional programming languages. I also like to dabble in topics under the theory of computation.
 
-#### Links
+##### Teaching
 
-<a onclick="ga('send','event','Outgoing Links','github.com/kavon')" target="_blank" href="http://github.com/kavon"> 
-   <img src="images/GitHub-Mark-64px.png" height="32" width="32" title="GitHub"> 
-</a>
+* TA for CMSC 12100 (Autumn 2015)
+
+    INDENT *Office Hours* — **TBA**
+
+##### Projects
+
+INDENT Code for personal projects and other things are LINK("https://bitbucket.org/kavon",available here) with a GPL license.
+
+* LINK("http://manticore.cs.uchicago.edu",Manticore) — An ML-like language for parallel programming.
+* LINK("plog/index.html",PLog) — Research, carefully distilled into blog posts.
 
 
-
+##### Raw Data
+<pre>
+&lt;first-name&gt;INDENT::=  kavon
+&lt;email&gt;INDENT INDENT::=  <b>&lt;first-name&gt;</b>@farvard.in  |  <b>&lt;first-name&gt;</b>@cs.uchicago.edu
+&lt;twitter&gt;SPACER SPACER&nbsp;&nbsp;::=  LINK("https://twitter.com/fldpi",@fldpi)
+&lt;office&gt;SPACER SPACER SPACER::=  Ryerson 176
+&lt;cv&gt;SPACER SPACER SPACER SPACER ::=  <a onclick="ga('send','event','File Download','CV')" target="_blank" href="files/cv.pdf">available here</a>
+</pre>
 
