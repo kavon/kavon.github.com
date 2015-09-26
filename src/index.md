@@ -19,12 +19,20 @@ INDENT I am interested in the *expressiveness* and *performance* of concurrent f
 ##### Teaching
 
 * TA for CMSC 12100 (Autumn 2015)
+<br><br>
+    INDENT **Office Hours:** Thursday 1:30p - 3:30p in Ryerson 255
+<br><br>
+    INDENT Lab Sections:
 
-    INDENT *Office Hours* — **TBA**
+    * Lab #6 — Tuesday 1:30p - 2:50p in CSIL 3
+
+    * Lab #8 — Tuesday 3:00p - 4:20p in CSIL 4
+
+    * Lab #12 — Tuesday 6:00p - 7:20p in CSIL 4
 
 ##### Projects
 
-INDENT Code for personal projects and other things are LINK("https://bitbucket.org/kavon",available here) with a GPL license.
+INDENT Code for personal projects and other things are LINK("https://bitbucket.org/kavon",available here) with a free [license](https://www.gnu.org/licenses/license-list.html) that is compatible with the GNU GPL.
 
 * LINK("http://manticore.cs.uchicago.edu",Manticore) — An ML-like language for parallel programming.
 * LINK("plog/index.html",PLog) — Research, carefully distilled into blog posts.
