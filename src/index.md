@@ -20,7 +20,7 @@ INDENT I am interested in the *expressiveness* and *performance* of concurrent f
 
 * TA for CMSC 12100 (Autumn 2015)
 <br><br>
-    INDENT **Office Hours:** Thursday 1:30p - 3:30p in Ryerson 255
+    INDENT **Office Hours:** Tuesday 4:30p - 5:55p in Ryerson 162
 <br><br>
     INDENT Lab Sections:
 
