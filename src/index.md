@@ -42,7 +42,7 @@ INDENT Code for personal projects and other things are LINK("https://bitbucket.o
 <pre>
 &lt;first-name&gt;INDENT::=  kavon
 &lt;email&gt;INDENT INDENT::=  <b>&lt;first-name&gt;</b>@farvard.in  |  <b>&lt;first-name&gt;</b>@cs.uchicago.edu
-&lt;twitter&gt;SPACER SPACER&nbsp;&nbsp;::=  LINK("https://twitter.com/fldpi",@fldpi)
+&lt;twitter&gt;SPACER SPACER&nbsp;&nbsp;::=  LINK("https://twitter.com/call1cc",@call1cc)
 &lt;office&gt;SPACER SPACER SPACER::=  Ryerson 176
 &lt;cv&gt;SPACER SPACER SPACER SPACER ::=  <a onclick="ga('send','event','File Download','CV')" target="_blank" href="files/cv.pdf">available here</a>
 </pre>
