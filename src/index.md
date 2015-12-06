@@ -34,7 +34,7 @@ INDENT Broadly speaking, I am interested in the *expressiveness* and *performanc
 
 ##### Projects
 
-INDENT Code for personal projects and other things are LINK("https://bitbucket.org/kavon",available here) with a free [license](https://www.gnu.org/licenses/license-list.html) that is compatible with the GNU GPL.
+INDENT Code for personal projects and other things are LINK("https://bitbucket.org/kavon",available here) with a free [license](https://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses) that is compatible with the GNU GPL.
 
 * LINK("http://manticore.cs.uchicago.edu",Manticore) — An ML-like language for parallel programming.
 * LINK("plog/index.html",PLog) — Research, carefully distilled into blog posts.
