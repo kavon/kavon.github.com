@@ -21,7 +21,7 @@ INDENT Broadly speaking, I am interested in the *expressiveness* and *performanc
 
 * TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/winter/22300-1/",CMSC 22300) (Winter 2016)
 <br><br>
-    INDENT **Office Hours:** TBA
+    INDENT **Office Hours:** Tuesdays, 9:45a–11:45a in Ryerson 176
 <br><br>
 * Volunteer at LINK("http://www.artificechicago.org", @rtifice)
 
