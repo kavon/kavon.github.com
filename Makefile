@@ -1,13 +1,25 @@
 
 PROCESS=gcc -E -x c -P -C -I ./src/include
 
-website: mainLanding blogLanding
+BLOG_SRC_DIR := src/blog
+BLOG_SOURCES := $(shell find $(BLOG_SRC_DIR) -name '*.md')
+BLOG_OUT_DIR := blog
+BLOG_GOALS := $(BLOG_SOURCES:$(BLOG_SRC_DIR)/%.md=$(BLOG_OUT_DIR)/%.html)
 
-mainLanding: src/index.md
+rebuild: clean website
+
+website: index.html $(BLOG_GOALS)
+
+index.html: src/index.md
 	$(PROCESS) $^ | multimarkdown > index.html
 
-blogLanding: src/blog/index.md
-	$(PROCESS) $^ | multimarkdown > blog/index.html
+$(BLOG_OUT_DIR)/%.html: $(BLOG_SRC_DIR)/%.md
+	$(PROCESS) $^ | multimarkdown > $@
 
+clean:
+	rm -f index.html
+	rm -f $(BLOG_GOALS)
+
+# TODO this is kinda weak
 spellcheck: index.md
 	aspell -c index.md
