@@ -1,13 +1,13 @@
 
 PROCESS=gcc -E -x c -P -C -I ./src/include
 
-website: mainLanding plogLanding
+website: mainLanding blogLanding
 
 mainLanding: src/index.md
 	$(PROCESS) $^ | multimarkdown > index.html
 
-plogLanding: src/plog/index.md
-	$(PROCESS) $^ | multimarkdown > plog/index.html
+blogLanding: src/blog/index.md
+	$(PROCESS) $^ | multimarkdown > blog/index.html
 
 spellcheck: index.md
 	aspell -c index.md

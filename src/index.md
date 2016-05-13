@@ -6,7 +6,7 @@ HTML header: <link rel="icon" type="image/png" href="images/duck.png" />
 #include "telemetry.html"
 #include "utils.html"
 
-NAVBAR(NAV_LINK_CRNT("index.html",Kavon Farvardin),SMALL(NAV_LINK("plog/index.html",PLog))) <img style="float: right" src="images/jaypeg.png" height="250" width="187" border="1"/>
+NAVBAR(NAV_LINK_CRNT("index.html",Kavon Farvardin),SMALL(NAV_LINK("blog/index.html",Blog))) <img style="float: right" src="images/jaypeg.png" height="250" width="187" border="1"/>
 ============
 
 <!-- droppin links to work that PageRank -->
@@ -33,7 +33,7 @@ INDENT Broadly speaking, I am interested in the *expressiveness* and *performanc
 INDENT Code for personal projects and other things are LINK("https://bitbucket.org/kavon",available here) with a free [license](https://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses) that is compatible with the GNU GPL.
 
 * LINK("http://manticore.cs.uchicago.edu",Manticore) — An ML-like language for parallel programming.
-* LINK("plog/index.html",PLog) — Research, carefully distilled into blog posts.
+* LINK("blog/index.html",Blog) — Research, carefully distilled into blog posts.
 
 
 #### Raw Data
@@ -44,4 +44,3 @@ INDENT Code for personal projects and other things are LINK("https://bitbucket.o
 &lt;office&gt;SPACER SPACER SPACER::=  Ryerson 176
 &lt;cv&gt;SPACER SPACER SPACER SPACER ::=  <a onclick="ga('send','event','File Download','CV')" target="_blank" href="files/cv.pdf">available here</a>
 </pre>
-
