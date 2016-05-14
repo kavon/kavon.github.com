@@ -3,7 +3,7 @@ Format: complete
 Title: Kavon Farvardin — Blog
 HTML header: <link rel="icon" type="image/png" href="../images/duck.png" />
 
-#include "telemetry.html"
+#include "default.html"
 #include "utils.html"
 
 NAVBAR(NAV_LINK("../index.html",Kavon Farvardin),SMALL(NAV_LINK_CRNT("index.html",Blog)))

@@ -3,7 +3,7 @@ Format: complete
 Title: Title
 HTML header: <link rel="icon" type="image/png" href="../images/duck.png" />
 
-#include "telemetry.html"
+#include "default.html"
 #include "utils.html"
 #include "blog.html"
 
