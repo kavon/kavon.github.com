@@ -23,7 +23,7 @@ INDENT Broadly speaking, I am interested in the *expressiveness* and *performanc
 <br><br>
     INDENT **Office Hours:** Tuesdays, 9:45a–11:45a in Ryerson 176
 <br><br>  -->
-* Volunteer at LINK("http://www.artificechicago.org", @rtifice)
+* Volunteer After-school Instructor at LINK("http://www.artificechicago.org", @rtifice)
 
 #### Past
 * TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/winter/22300-1/",CMSC 22300 - Functional Programming) (Winter 2016)
@@ -41,7 +41,7 @@ INDENT Code for personal projects and other things are LINK("https://bitbucket.o
 
 ### Odds and Ends
 
-* Mail: SPACER <b>&lt;first-name&gt;</b>@farvard.in
-* Twitter: SPACER LINK("https://twitter.com/call1cc",@call1cc)
-* LINK("https://github.com/kavon",GitHub)
-* <a onclick="ga('send','event','File Download','CV')" target="_blank" href="files/cv.pdf">Curriculum Vitae</a>
+* Contact: <b>&lt;my-first-name&gt;</b>@farvard.in
+* LINK("https://twitter.com/call1cc",@call1cc) on Twitter
+* LINK("https://github.com/kavon",kavon) on GitHub
+* <a onclick="ga('send','event','File Download','CV')" target="_blank" href="files/cv.pdf">Curriculum vitae</a>, if you're into that (last updated Aug 2014).

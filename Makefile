@@ -8,7 +8,10 @@
 # 3. Run make, and this will generate blog/my-cool-new-post.html
 ##
 
-PROCESS=gcc -E -x c -P -C -traditional-cpp -I ./src/include
+# comment out this flag if you're debugging the preprocessing. it's
+# only here because of complaints about single quote characters.
+FLAGS=-Wno-invalid-pp-token
+PROCESS=gcc $(FLAGS) -E -x c -P -C -traditional-cpp -I ./src/include
 
 BLOG_SRC_DIR := src/blog
 BLOG_SOURCES := $(shell find $(BLOG_SRC_DIR) -name '*.md')
