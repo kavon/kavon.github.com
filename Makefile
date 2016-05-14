@@ -8,7 +8,7 @@
 # 3. Run make, and this will generate blog/my-cool-new-post.html
 ##
 
-PROCESS=gcc -E -x c -P -C -I ./src/include
+PROCESS=gcc -E -x c -P -C -traditional-cpp -I ./src/include
 
 BLOG_SRC_DIR := src/blog
 BLOG_SOURCES := $(shell find $(BLOG_SRC_DIR) -name '*.md')

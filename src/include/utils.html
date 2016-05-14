@@ -1,6 +1,9 @@
 #ifndef __UTILS__
 #define __UTILS__
 
+<!-- hacky stuff to allow for single hash at begin of line. usage: QUOTE(#) -->
+#define QUOTE(x) x
+
 <!-- U -> "URL", D -> Description ... opens in a new tab -->
 #define LINK(U,D)	<a href=U target="_blank">D</a>
 
@@ -15,7 +18,7 @@
 
 #define SMALL(X)	<small><small><small>X</small></small></small>
 
-#define NAVBAR(H,B)	H SPACER B
+#define NAVBAR(H,B)	<small>H</small> SPACER B
 
 
 #define POST_DATE(M,D,Y)	*D M Y*
