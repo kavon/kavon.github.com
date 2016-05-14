@@ -2,8 +2,10 @@
 
 /* body */
 body {
-	margin: 20px auto;
-    max-width: 850px;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 850px;
 	background-color: #FAF0E6;
 	color: #000;
 	font: 16px "Georgia Pro", "Georgia", serif;
