@@ -12,35 +12,36 @@ NAVBAR(NAV_LINK_CRNT("index.html",Kavon Farvardin),SMALL(NAV_LINK("blog/index.ht
 <!-- droppin links to work that PageRank -->
 INDENT A second-year PhD student studying LINK("http://pl.cs.uchicago.edu/",programming languages) with the help of LINK("http://people.cs.uchicago.edu/~jhr/",Prof. John Reppy) in the LINK("http://cs.uchicago.edu/",Department of Computer Science) at the LINK("http://uchicago.edu/",University of Chicago).
 
-#### Research
+### Research
 
 INDENT Broadly speaking, I am interested in the *expressiveness* and *performance* of concurrent functional programming languages. Right now I am working on parallel runtime systems to support such languages.
 
-#### Teaching
-##### Current
-
+### Teaching
+#### Current
+<!--
 * TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/winter/22300-1/",CMSC 22300) (Winter 2016)
 <br><br>
     INDENT **Office Hours:** Tuesdays, 9:45a–11:45a in Ryerson 176
-<br><br>
+<br><br>  -->
 * Volunteer at LINK("http://www.artificechicago.org", @rtifice)
 
-##### Past
-* TA for LINK("https://www.classes.cs.uchicago.edu/archive/2015/fall/12100-1/",CMSC 12100) (Autumn 2015)
+#### Past
+* TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/winter/22300-1/",CMSC 22300 - Functional Programming) (Winter 2016)
+* TA for LINK("https://www.classes.cs.uchicago.edu/archive/2015/fall/12100-1/",CMSC 12100 - Computer Science with Applications 1) (Autumn 2015)
 
-#### Projects
+### Projects
 
 INDENT Code for personal projects and other things are LINK("https://bitbucket.org/kavon",available here) with a free [license](https://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses) that is compatible with the GNU GPL.
 
-* LINK("http://manticore.cs.uchicago.edu",Manticore) — An ML-like language for parallel programming.
+* LINK("http://manticore.cs.uchicago.edu",Manticore) — A dialect of Standard ML for parallel programming.
 * LINK("blog/index.html",Blog) — Research, carefully distilled into blog posts.
 
+### Publications
+*Coming Soon*
 
-#### Raw Data
-<pre>
-&lt;first-name&gt;INDENT::=  kavon
-&lt;email&gt;INDENT INDENT::=  <b>&lt;first-name&gt;</b>@farvard.in  |  <b>&lt;first-name&gt;</b>@cs.uchicago.edu
-&lt;twitter&gt;SPACER SPACER&nbsp;&nbsp;::=  LINK("https://twitter.com/call1cc",@call1cc)
-&lt;office&gt;SPACER SPACER SPACER::=  Ryerson 176
-&lt;cv&gt;SPACER SPACER SPACER SPACER ::=  <a onclick="ga('send','event','File Download','CV')" target="_blank" href="files/cv.pdf">available here</a>
-</pre>
+### Odds and Ends
+
+* Mail: SPACER <b>&lt;first-name&gt;</b>@farvard.in
+* Twitter: SPACER LINK("https://twitter.com/call1cc",@call1cc)
+* LINK("https://github.com/kavon",GitHub)
+* <a onclick="ga('send','event','File Download','CV')" target="_blank" href="files/cv.pdf">Curriculum Vitae</a>

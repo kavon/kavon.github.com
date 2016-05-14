@@ -5,6 +5,7 @@ HTML header: <link rel="icon" type="image/png" href="../images/duck.png" />
 
 #include "telemetry.html"
 #include "utils.html"
+#include "blog.html"
 
 NAVBAR(NAV_LINK("../index.html",Kavon Farvardin),SMALL(NAV_LINK_CRNT("index.html",Blog)))
 ====================
