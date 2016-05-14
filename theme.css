@@ -127,7 +127,7 @@ p {
 /* lists */
 
 ul	{
-	list-style: square outside;
+	list-style: circle outside;
 	margin: 0 0 0 30px;
 	padding: 0 0 12px 6px;
 }
