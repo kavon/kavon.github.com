@@ -14,6 +14,10 @@ NAVBAR(NAV_LINK("../index.html",Kavon Farvardin),SMALL(NAV_LINK_CRNT("index.html
 
 QUOTE(#) Post Template
 
+MK_DATE(Jul,4,1776)
+
+MK_ABSTRACT
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum, justo in sollicitudin eleifend, odio ex convallis ex, in elementum felis elit non erat. Proin nec magna ut lectus vestibulum finibus. Ut eget molestie libero. Nullam at lectus nulla. Praesent pulvinar metus arcu, quis tempor magna rutrum vitae. In hac habitasse platea dictumst. Sed malesuada, mi eu accumsan pulvinar, eros quam faucibus nibh, eu pretium metus sapien quis mauris. Proin sed consectetur diam, quis pellentesque elit. Duis vestibulum dui augue, ornare vulputate magna volutpat vitae.
 
 ## A Subtitle
