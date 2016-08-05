@@ -1,13 +1,4 @@
-##
-# How to make a blog post:
-# 1. Make a new markdown file: src/blog/my-cool-new-post.md
-#
-# 2. Update the src/blog/index.md to point to your new post 
-#    (it be nice to autogen this index but we can do that later)
-#
-# 3. Run make, and this will generate blog/my-cool-new-post.html
-##
-
+###########
 # comment out this flag if you're debugging the preprocessing. it's
 # only here because of complaints about single quote characters.
 FLAGS=-Wno-invalid-pp-token

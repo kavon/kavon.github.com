@@ -6,7 +6,7 @@ HTML header: <link rel="icon" type="image/png" href="images/duck.png" />
 #include "default.html"
 #include "utils.html"
 
-NAVBAR(NAV_LINK_CRNT("index.html",Kavon Farvardin),SMALL(NAV_LINK("blog/index.html",Blog))) <img style="float: right" src="images/jaypeg.png" height="250" width="187" border="1"/>
+NAVBAR(NAV_LINK_CRNT("index.html",Kavon Farvardin),SMALL(NAV_LINK("https://medium.com/@kavon",Blog))) <img style="float: right" src="images/jaypeg.png" height="250" width="187" border="1"/>
 ============
 
 <!-- droppin links to work that PageRank -->
@@ -31,10 +31,9 @@ INDENT Broadly speaking, I am interested in the *expressiveness* and *performanc
 
 ### Projects
 
-INDENT Code for personal projects and other things are LINK("https://bitbucket.org/kavon",available here) with a free [license](https://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses) that is compatible with the GNU GPL.
+INDENT Code for my personal projects and other things LINK("https://github.com/kavon",are available) with a permissive, [GPL compatible](https://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses) license.
 
 * LINK("http://manticore.cs.uchicago.edu",Manticore) — A dialect of Standard ML for parallel programming.
-* LINK("blog/index.html",Blog) — Research, carefully distilled into blog posts.
 
 ### Publications
 *Coming Soon*
