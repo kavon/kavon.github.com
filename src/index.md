@@ -6,7 +6,7 @@ HTML header: <link rel="icon" type="image/png" href="images/duck.png" />
 #include "default.html"
 #include "utils.html"
 
-NAVBAR(NAV_LINK_CRNT("index.html",Kavon Farvardin),SMALL(NAV_LINK("https://medium.com/@kavon",Blog))) <img style="float: right" src="images/jaypeg.png" height="250" width="187" border="1"/>
+NAVBAR(NAV_LINK_CRNT("index.html",Kavon Farvardin),<!--SMALL(NAV_LINK("https://medium.com/@kavon",Blog))-->) <img style="float: right" src="images/jaypeg.png" height="250" width="187" border="1"/>
 ============
 
 <!-- droppin links to work that PageRank -->
