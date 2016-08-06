@@ -28,6 +28,10 @@ ga('send', 'pageview');
 
 <!-- U -> "URL", D -> Description ... opens in a new tab -->
 
+<!-- C macros and quotes dont mix well -->
+
+<!-- "url", 'tag', description -->
+
 <!-- current page in the nav bar is shown with a different link style -->
 
 <!-- D is date, N is name, L is link -->
@@ -47,7 +51,7 @@ ga('send', 'pageview');
 <h4 id="publications">Publications</h4>
 
 <ul>
-<li><a href=papers/cwc_llvm_ml16.pdf> <strong>Compiling with Continuations and LLVM</strong></a> <br>
+<li><a onclick=" ga('send','event','File Download', 'ML16 Paper') " href="papers/cwc_llvm_ml16.pdf" > <strong>Compiling with Continuations and LLVM</strong></a> <br>
  Kavon Farvardin and John Reppy <br>
  <em>ML Workshop 2016</em></li>
 </ul>
@@ -88,7 +92,7 @@ ga('send', 'pageview');
 <li>Office: Ryerson 176</li>
 <li><a href="https://twitter.com/call1cc" target="_blank">@call1cc</a> on Twitter</li>
 <li><a href="https://github.com/kavon" target="_blank">kavon</a> on GitHub</li>
-<li><a onclick="ga('send','event','File Download','CV')" target="_blank" href="files/cv.pdf">Curriculum vitae</a> (last updated Aug 2014)</li>
+<li><a onclick=" ga('send','event','File Download', 'CV') " href="files/cv.pdf" > Curriculum vitae</a> (last updated Aug 2014)</li>
 </ul>
 
 </body>

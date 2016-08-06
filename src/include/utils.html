@@ -7,6 +7,13 @@
 <!-- U -> "URL", D -> Description ... opens in a new tab -->
 #define LINK(U,D)	<a href=U target="_blank">D</a>
 
+<!-- C macros and quotes dont mix well -->
+#define DQUOTE "
+#define SQUOTE '
+
+<!-- "url", 'tag', description -->
+#define DOWNLOAD(U, Z, D)	<a onclick=DQUOTE ga('send','event','File Download',Z) DQUOTE href=U >D</a>
+
 #define SPACER	&nbsp;&nbsp;
 
 #define INDENT	&nbsp;&nbsp;&nbsp;&nbsp;

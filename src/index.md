@@ -17,7 +17,7 @@ INDENT I am a second-year PhD student studying LINK("http://pl.cs.uchicago.edu/"
 INDENT Broadly speaking, I am interested in the *expressiveness* and *performance* of concurrent functional programming languages. Right now I am working on parallel runtime systems to support such languages.
 
 #### Publications
-* NAV_LINK(papers/cwc_llvm_ml16.pdf, **Compiling with Continuations and LLVM**) <br>
+* DOWNLOAD("papers/cwc_llvm_ml16.pdf", 'ML16 Paper', **Compiling with Continuations and LLVM**) <br>
   Kavon Farvardin and John Reppy <br>
   *ML Workshop 2016*
 
@@ -49,4 +49,4 @@ INDENT Code for my personal projects and other things LINK("https://github.com/k
 * Office: Ryerson 176
 * LINK("https://twitter.com/call1cc",@call1cc) on Twitter
 * LINK("https://github.com/kavon",kavon) on GitHub
-* <a onclick="ga('send','event','File Download','CV')" target="_blank" href="files/cv.pdf">Curriculum vitae</a> (last updated Aug 2014)
+* DOWNLOAD("files/cv.pdf", 'CV', Curriculum vitae) (last updated Aug 2014)
