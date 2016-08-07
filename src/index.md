@@ -17,7 +17,7 @@ INDENT I am a second-year PhD student studying LINK("http://pl.cs.uchicago.edu/"
 INDENT Broadly speaking, I am interested in the *expressiveness* and *performance* of concurrent functional programming languages. Right now I am working on parallel runtime systems to support such languages.
 
 #### Publications
-* DOWNLOAD("papers/cwc_llvm_ml16.pdf", 'ML16 Paper', **Compiling with Continuations and LLVM**) <br>
+* DOWNLOAD("papers/ml16-cwc-llvm.pdf", 'ML16 Paper', **Compiling with Continuations and LLVM**) <br>
   Kavon Farvardin and John Reppy <br>
   *ML Workshop 2016*
 
