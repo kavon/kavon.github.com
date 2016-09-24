@@ -10,7 +10,7 @@ NAVBAR(NAV_LINK_CRNT("index.html",Kavon Farvardin),<!--SMALL(NAV_LINK("https://m
 ============
 
 <!-- droppin links to work that PageRank -->
-INDENT I am a second-year PhD student studying LINK("http://pl.cs.uchicago.edu/",programming languages) with the help of LINK("http://people.cs.uchicago.edu/~jhr/",Prof. John Reppy) in the LINK("http://cs.uchicago.edu/",Department of Computer Science) at the LINK("http://uchicago.edu/",University of Chicago).
+INDENT I am a third-year PhD student studying LINK("http://pl.cs.uchicago.edu/",programming languages) with the help of LINK("http://people.cs.uchicago.edu/~jhr/",Prof. John Reppy) in the LINK("http://cs.uchicago.edu/",Department of Computer Science) at the LINK("http://uchicago.edu/",University of Chicago).
 
 ### Research
 
@@ -19,17 +19,16 @@ INDENT Broadly speaking, I am interested in the *expressiveness* and *performanc
 #### Publications
 * DOWNLOAD("papers/ml16-cwc-llvm.pdf", 'ML16 Paper', **Compiling with Continuations and LLVM**) <br>
   Kavon Farvardin and John Reppy <br>
-  *ML Workshop 2016*
+  *ML Workshop 2016* SPACER DOWNLOAD("papers/ml16-slides.pdf", 'ML16 Slides', SMALL([slides])) 
 
 
 ### Teaching
 #### Current
-<!--
-* TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/winter/22300-1/",CMSC 22300) (Winter 2016)
+* TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/fall/22600-1/",CMSC 22600 - Name of Class) (Autumn 2016)
 <br><br>
-    INDENT **Office Hours:** Tuesdays, 9:45a–11:45a in Ryerson 176
-<br><br>  -->
-* Volunteer After-school Instructor at LINK("http://www.artificechicago.org", @rtifice)
+    INDENT **Office Hours:** TBD <!-- Tuesdays, 9:45a–11:45a in Ryerson 176 -->
+<br><br>
+* CTO of LINK("http://www.artificechicago.org", @rtifice)
 
 #### Past
 * TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/winter/22300-1/",CMSC 22300 - Functional Programming) (Winter 2016)
