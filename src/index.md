@@ -16,15 +16,15 @@ INDENT I am a third-year PhD student studying LINK("http://pl.cs.uchicago.edu/",
 
 INDENT Broadly speaking, I am interested in the *expressiveness* and *performance* of concurrent functional programming languages. Right now I am working on parallel runtime systems to support such languages.
 
-#### Publications
+#### Papers
 * DOWNLOAD("papers/ml16-cwc-llvm.pdf", 'ML16 Paper', **Compiling with Continuations and LLVM**) <br>
   Kavon Farvardin and John Reppy <br>
-  *ML Workshop 2016* SPACER DOWNLOAD("papers/ml16-slides.pdf", 'ML16 Slides', SMALL([slides])) 
+  GOTO("http://www.mlworkshop.org/ml2016",ML 2016) SPACER DOWNLOAD("papers/ml16-slides.pdf", 'ML16 Slides', SMALL([slides])) 
 
 
 ### Teaching
 #### Current
-* TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/fall/22600-1/",CMSC 22600 - Name of Class) (Autumn 2016)
+* TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/fall/22600-1/",CMSC 22600 - Compilers for Computer Languages) (Autumn 2016)
 <br><br>
     INDENT **Office Hours:** TBD <!-- Tuesdays, 9:45a–11:45a in Ryerson 176 -->
 <br><br>
