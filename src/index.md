@@ -26,7 +26,7 @@ INDENT Broadly speaking, I am interested in the *expressiveness* and *performanc
 #### Current
 * TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/fall/22600-1/",CMSC 22600 - Compilers for Computer Languages) (Autumn 2016)
 <br><br>
-    INDENT **Office Hours:** Wednesdays 5p–6p (Ryerson 176) and Fridays 2:15p-3:45p (Eckhart 131)
+    INDENT **Office Hours:** Wed 5p–6p (Ry 176) and Fri 2:15p-3:45p (Eck 131)
 <br><br>
 * CTO of LINK("http://www.artificechicago.org", @rtifice)
 
