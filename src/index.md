@@ -12,6 +12,11 @@ NAVBAR(NAV_LINK_CRNT("index.html",Kavon Farvardin),<!--SMALL(NAV_LINK("https://m
 <!-- droppin links to work that PageRank -->
 INDENT I am a third-year PhD student studying LINK("http://pl.cs.uchicago.edu/",programming languages) with the help of LINK("http://people.cs.uchicago.edu/~jhr/",Prof. John Reppy) in the LINK("http://cs.uchicago.edu/",Department of Computer Science) at the LINK("http://uchicago.edu/",University of Chicago).
 
+### Quick Info
+
+* Email: [kavon@farvard.in](mailto:kavon@farvard.in)
+* Office Hours (CS 122): *To be determined*
+
 ### Research
 
 INDENT Broadly speaking, I am interested in the *expressiveness* and *performance* of concurrent functional programming languages. Right now I am working on parallel runtime systems to support such languages.
@@ -19,18 +24,25 @@ INDENT Broadly speaking, I am interested in the *expressiveness* and *performanc
 #### Papers
 * DOWNLOAD("papers/ml16-cwc-llvm.pdf", 'ML16 Paper', **Compiling with Continuations and LLVM**) <br>
   Kavon Farvardin and John Reppy <br>
-  GOTO("http://www.mlworkshop.org/ml2016",ML 2016) SPACER DOWNLOAD("papers/ml16-slides.pdf", 'ML16 Slides', SMALL([slides])) 
+  GOTO("http://www.mlworkshop.org/ml2016",ML 2016) SPACER DOWNLOAD("papers/ml16-slides.pdf", 'ML16 Slides', LESS_BIG([slides])) 
+  
+#### Talks
+* DOWNLOAD("talks/mwpls16.pdf", 'MWPLS16', **Practical Conversion from CPS to Direct Style**) <br>
+  GOTO("http://pl.cs.uchicago.edu/PLSummit/2016/",Midwest PL Summit 2016)
 
 
 ### Teaching
 #### Current
-* TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/fall/22600-1/",CMSC 22600 - Compilers for Computer Languages) (Autumn 2016)
+* TA for CMSC 12200 - Computer Science with Applications 2 (Winter 2017)
+<!--
 <br><br>
-    INDENT **Office Hours:** Wed 5p–6p (Ry 176) and Fri 2:15p-3:45p (Eck 131)
+    INDENT **Office Hours:** TBD Wed 5p–6p (Ry 176) and Fri 2:15p-3:45p (Eck 131)
 <br><br>
+-->
 * CTO of LINK("http://www.artificechicago.org", @rtifice)
 
 #### Past
+* TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/fall/22600-1/",CMSC 22600 - Compilers for Computer Languages) (Autumn 2016)
 * TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/winter/22300-1/",CMSC 22300 - Functional Programming) (Winter 2016)
 * TA for LINK("https://www.classes.cs.uchicago.edu/archive/2015/fall/12100-1/",CMSC 12100 - Computer Science with Applications 1) (Autumn 2015)
 
@@ -43,9 +55,13 @@ INDENT Code for my personal projects and other things LINK("https://github.com/k
 
 
 ### Odds and Ends
+* DOWNLOAD("files/cv.pdf", 'CV', Curriculum vitae) (last updated Dec 2016)
+<!-- * LINK("https://twitter.com/call1cc",@call1cc) on Twitter * LINK("https://github.com/kavon",kavon) on GitHub -->
 
-* Contact: **[first-name]**@farvard.in
-* Office: Ryerson 176
-* LINK("https://twitter.com/call1cc",@call1cc) on Twitter
-* LINK("https://github.com/kavon",kavon) on GitHub
-* DOWNLOAD("files/cv.pdf", 'CV', Curriculum vitae) (last updated Aug 2014)
+<!-- bottom margin -->
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
