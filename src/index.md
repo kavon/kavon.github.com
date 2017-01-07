@@ -14,8 +14,8 @@ INDENT I am a third-year PhD student studying LINK("http://pl.cs.uchicago.edu/",
 
 ### Quick Info
 
-* Email: [kavon@farvard.in](mailto:kavon@farvard.in)
-* Office Hours (CS 122): *To be determined*
+* **Email**: &nbsp; [kavon@farvard.in](mailto:kavon@farvard.in)
+* **Office Hours** (CS 122): Mondays, 4:30p–6:30p, Eckhart 131
 
 ### Research
 
@@ -33,7 +33,7 @@ INDENT Broadly speaking, I am interested in the *expressiveness* and *performanc
 
 ### Teaching
 #### Current
-* TA for CMSC 12200 - Computer Science with Applications 2 (Winter 2017)
+* TA for LINK("https://www.classes.cs.uchicago.edu/archive/2017/winter/12200-1/",CMSC 12200 - Computer Science with Applications 2) (Winter 2017)
 <!--
 <br><br>
     INDENT **Office Hours:** TBD Wed 5p–6p (Ry 176) and Fri 2:15p-3:45p (Eck 131)
