@@ -12,10 +12,12 @@ NAVBAR(NAV_LINK_CRNT("index.html",Kavon Farvardin),<!--SMALL(NAV_LINK("https://m
 <!-- droppin links to work that PageRank -->
 INDENT I am a third-year PhD student studying LINK("http://pl.cs.uchicago.edu/",programming languages) with the help of LINK("http://people.cs.uchicago.edu/~jhr/",Prof. John Reppy) in the LINK("http://cs.uchicago.edu/",Department of Computer Science) at the LINK("http://uchicago.edu/",University of Chicago).
 
+**Note:** Currently interning at Microsoft Research with LINK("https://www.microsoft.com/en-us/research/people/simonpj/",Prof. Simon Peyton Jones)
+
 ### Quick Info
 
 * **Email**: &nbsp; [kavon@farvard.in](mailto:kavon@farvard.in)
-* **Office Hours** (CS 122): Mondays, 4:30p–6:30p, Eckhart 131
+<!-- * **Office Hours** (CS 122): Mondays, 4:30p–6:30p, Eckhart 131 -->
 
 ### Research
 
@@ -33,7 +35,7 @@ INDENT Broadly speaking, I am interested in the *expressiveness* and *performanc
 
 ### Teaching
 #### Current
-* TA for LINK("https://www.classes.cs.uchicago.edu/archive/2017/winter/12200-1/",CMSC 12200 - Computer Science with Applications 2) (Winter 2017)
+
 <!--
 <br><br>
     INDENT **Office Hours:** TBD Wed 5p–6p (Ry 176) and Fri 2:15p-3:45p (Eck 131)
@@ -42,6 +44,7 @@ INDENT Broadly speaking, I am interested in the *expressiveness* and *performanc
 * CTO of LINK("http://www.artificechicago.org", @rtifice)
 
 #### Past
+* TA for LINK("https://www.classes.cs.uchicago.edu/archive/2017/winter/12200-1/",CMSC 12200 - Computer Science with Applications 2) (Winter 2017)
 * TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/fall/22600-1/",CMSC 22600 - Compilers for Computer Languages) (Autumn 2016)
 * TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/winter/22300-1/",CMSC 22300 - Functional Programming) (Winter 2016)
 * TA for LINK("https://www.classes.cs.uchicago.edu/archive/2015/fall/12100-1/",CMSC 12100 - Computer Science with Applications 1) (Autumn 2015)
