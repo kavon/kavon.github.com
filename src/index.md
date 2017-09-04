@@ -12,8 +12,6 @@ NAVBAR(NAV_LINK_CRNT("index.html",Kavon Farvardin),<!--SMALL(NAV_LINK("https://m
 <!-- droppin links to work that PageRank -->
 INDENT I am a third-year PhD student studying LINK("http://pl.cs.uchicago.edu/",programming languages) with the help of LINK("http://people.cs.uchicago.edu/~jhr/",Prof. John Reppy) in the LINK("http://cs.uchicago.edu/",Department of Computer Science) at the LINK("http://uchicago.edu/",University of Chicago).
 
-**Note:** Currently interning at Microsoft Research with LINK("https://www.microsoft.com/en-us/research/people/simonpj/",Prof. Simon Peyton Jones)
-
 ### Quick Info
 
 * **Email**: &nbsp; [kavon@farvard.in](mailto:kavon@farvard.in)
@@ -24,13 +22,23 @@ INDENT I am a third-year PhD student studying LINK("http://pl.cs.uchicago.edu/",
 INDENT Broadly speaking, I am interested in the *expressiveness* and *performance* of concurrent functional programming languages. Right now I am working on parallel runtime systems to support such languages.
 
 #### Papers
+* **Weighing Continuations for Concurrency** <br>
+  Kavon Farvardin <br>
+  *Master's Thesis, University of Chicago*
+
 * DOWNLOAD("papers/ml16-cwc-llvm.pdf", 'ML16 Paper', **Compiling with Continuations and LLVM**) <br>
   Kavon Farvardin and John Reppy <br>
-  GOTO("http://www.mlworkshop.org/ml2016",ML 2016) SPACER DOWNLOAD("papers/ml16-slides.pdf", 'ML16 Slides', LESS_BIG([slides])) 
+  *GOTO("http://www.mlworkshop.org/ml2016",ML 2016) SPACER DOWNLOAD("papers/ml16-slides.pdf", 'ML16 Slides', LESS_BIG([slides]))*
+  
   
 #### Talks
+* **Native Support for Explicit Stacks in LLVM** <br>
+  Kavon Farvardin and Simon Peyton Jones <br>
+  *GOTO("http://icfp17.sigplan.org/track/hiw-2017",Haskell Implementors Workshop 2017)*
+
 * DOWNLOAD("talks/mwpls16.pdf", 'MWPLS16', **Practical Conversion from CPS to Direct Style**) <br>
-  GOTO("http://pl.cs.uchicago.edu/PLSummit/2016/",Midwest PL Summit 2016)
+  Kavon Farvardin and John Reppy <br>
+  *GOTO("http://pl.cs.uchicago.edu/PLSummit/2016/",Midwest PL Summit 2016)*
 
 
 ### Teaching
