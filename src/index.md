@@ -15,7 +15,7 @@ INDENT I am a third-year PhD student studying LINK("http://pl.cs.uchicago.edu/",
 ### Quick Info
 
 * **Email**: &nbsp; [kavon@farvard.in](mailto:kavon@farvard.in)
-<!-- * **Office Hours** (CS 122): Mondays, 4:30p–6:30p, Eckhart 131 -->
+* **Office Hours** (MPCS 513): *TBA* 
 
 ### Research
 
@@ -44,25 +44,30 @@ INDENT Broadly speaking, I am interested in the *expressiveness* and *performanc
 ### Teaching
 #### Current
 
+* TA for LINK("https://mpcs-courses.cs.uchicago.edu/2017-18/winter/courses/51300",MPCS 51300 - Compilers) (Winter 2018)
 <!--
 <br><br>
     INDENT **Office Hours:** TBD Wed 5p–6p (Ry 176) and Fri 2:15p-3:45p (Eck 131)
 <br><br>
 -->
-* CTO of LINK("http://www.artificechicago.org", @rtifice)
+
 
 #### Past
+* TA for LINK("https://www.classes.cs.uchicago.edu/archive/2017/fall/12100-1/",CMSC 12100 - Computer Science with Applications 1) (Autumn 2017)
 * TA for LINK("https://www.classes.cs.uchicago.edu/archive/2017/winter/12200-1/",CMSC 12200 - Computer Science with Applications 2) (Winter 2017)
 * TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/fall/22600-1/",CMSC 22600 - Compilers for Computer Languages) (Autumn 2016)
 * TA for LINK("https://www.classes.cs.uchicago.edu/archive/2016/winter/22300-1/",CMSC 22300 - Functional Programming) (Winter 2016)
 * TA for LINK("https://www.classes.cs.uchicago.edu/archive/2015/fall/12100-1/",CMSC 12100 - Computer Science with Applications 1) (Autumn 2015)
+* CTO of LINK("http://www.artificechicago.org", @rtifice)
 
 
 ### Projects
 
-INDENT Code for my personal projects and other things LINK("https://github.com/kavon",are available) with a permissive, [GPL compatible](https://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses) license.
+INDENT Code for my personal projects and other things LINK("https://github.com/kavon",are available on GitHub) with a permissive, [GPL compatible](https://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses) license.
+I also contribute to the following projects:
 
 * LINK("http://manticore.cs.uchicago.edu",Manticore) — A dialect of Standard ML for parallel programming.
+* LINK("https://www.haskell.org/ghc/",GHC) — The Glasgow Haskell Compiler
 
 
 ### Odds and Ends
