@@ -10,12 +10,12 @@ NAVBAR(NAV_LINK_CRNT("index.html",Kavon Farvardin),<!--SMALL(NAV_LINK("https://m
 ============
 
 <!-- droppin links to work that PageRank -->
-INDENT I am a third-year PhD student studying LINK("http://pl.cs.uchicago.edu/",programming languages) with the help of LINK("http://people.cs.uchicago.edu/~jhr/",Prof. John Reppy) in the LINK("http://cs.uchicago.edu/",Department of Computer Science) at the LINK("http://uchicago.edu/",University of Chicago).
+INDENT I am a fourth-year PhD student studying LINK("http://pl.cs.uchicago.edu/",programming languages) with the help of LINK("http://people.cs.uchicago.edu/~jhr/",Prof. John Reppy) in the LINK("http://cs.uchicago.edu/",Department of Computer Science) at the LINK("http://uchicago.edu/",University of Chicago).
 
 ### Quick Info
 
 * **Email**: &nbsp; [kavon@farvard.in](mailto:kavon@farvard.in)
-* **Office Hours** (MPCS 513): *TBA* 
+* **Office Hours** (MPCS 513): Saturdays, 1:30p - 3:30p in Ryerson 176
 
 ### Research
 
