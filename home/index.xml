@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Kavon Farvardin</title>
+    <link>http://kavon.farvard.in/home/</link>
+    <description>Recent content in Homes on Kavon Farvardin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://kavon.farvard.in/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://kavon.farvard.in/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://kavon.farvard.in/home/about/</guid>
+      <description>Biography I am a fourth-year PhD student studying (functional) programming languages with the help of Prof. John Reppy at the University of Chicago. In my research, I have worked on the Manticore, GHC, and LLVM compilers.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>http://kavon.farvard.in/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://kavon.farvard.in/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://kavon.farvard.in/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://kavon.farvard.in/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>http://kavon.farvard.in/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://kavon.farvard.in/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>http://kavon.farvard.in/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://kavon.farvard.in/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://kavon.farvard.in/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://kavon.farvard.in/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>http://kavon.farvard.in/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://kavon.farvard.in/home/teaching/</guid>
+      <description> TA for MPCS 51300 - Compilers (Winter 2018) TA for CMSC 12100 - Computer Science with Applications 1 (Autumn 2017) TA for CMSC 12200 - Computer Science with Applications 2 (Winter 2017) TA for CMSC 22600 - Compilers for Computer Languages (Autumn 2016) TA for CMSC 22300 - Functional Programming (Winter 2016) TA for CMSC 12100 - Computer Science with Applications 1 (Autumn 2015) CTO of @rtifice  </description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>http://kavon.farvard.in/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://kavon.farvard.in/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://kavon.farvard.in/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://kavon.farvard.in/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
