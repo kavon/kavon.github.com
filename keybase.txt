@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/kavon
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kavon.farvard.in
+  * I am kavon (https://keybase.io/kavon) on keybase.
+  * I have a public key with fingerprint A8C1 E73E 6504 C1E9 2831  D49F 664A 1065 462E 42B2
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010179a02d8b31168251aead3944b9cd99e1eb08e0edf57a6a56d8df47030da70b670a",
+      "fingerprint": "a8c1e73e6504c1e92831d49f664a1065462e42b2",
+      "host": "keybase.io",
+      "key_id": "664a1065462e42b2",
+      "kid": "010179a02d8b31168251aead3944b9cd99e1eb08e0edf57a6a56d8df47030da70b670a",
+      "uid": "d3954037b70623e707606901de4cd519",
+      "username": "kavon"
+    },
+    "service": {
+      "hostname": "kavon.farvard.in",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1520726734,
+  "expire_in": 157680000,
+  "prev": "c84c640d22bcf12ac5e541f3a3dd00069a49b354d7d9f82248373336e2105c10",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUm1MFFcUXRCoJdpuqFTUqnFQ4wfCzLz52Fm0TUuAlBARBMqCdp2Z9xZmF3Zw
+dlkqCkEiLbpBiZg2kC2IQCwVkBSQtkaRANJKiNIQEJU00iAfkViDFlJK2xlSk/7o
+z74/7717zzn33JtbtnqFbqWXJUaPokI/+Marf1rQpdYpY8cxQYbHMONxzIaWL5QJ
+kcNptkkQM2I4gRMsx+MkNAiAIBgDSRM84iHgKErgRMhxiEACbkA4ghaa5RmeZqAB
+WigWBzjkWVxgWJzHQjCLZE9HSrYi2Z2qLG8QCcQCxNA4pb440gAISHEWhqF4Amdo
+iiERRQqkSsyQHRpDNSfwDhQqyWpM/ZiX7f0H/n/2nbMsp/JoCgeswOIMCRCLswzO
+cDgBESVCmuA0oAMpdj4LaV55l2zH8kMwNeSSRKRNVWvj3+lQC6+4eAWGSnaVnK3I
+TlmUM9VshtOZ7TBqbOexbA2eiwTzP0JmQbJDdZAqw4UUh6RWMRIqUnRKmjJBkzhL
+MiygQjD0SbakILOkIWiWMeDq0eoglyopGiiRoUw4JElBtBAkL9KIpggL4AGEKpDh
+eIoTAE1BFnIWA0lSBsACABhEEjgtEjim9XbULmNGoPrk01VNh5Ru5505CsLy/U97
+Ax+d10rdxre3+HzVNfku8uma3kEMVb9aPl9vbfN0/q/rX0XMJr3uQvhYzmfX5JmB
+0ptPc9vyntr27P9uH2y9ZZ4o7qks/9A9I2DXf57dXeTG9nw773ubiY+mg4e3+lW0
+JBYNgpbmuufv/HrtSWjWm0pgx4GYXQk+QesqNw2fnFvze3GPnzU2rCRNORRT9rK9
+ZnBxqRtzL6b/UeBtgvfm4UzYQLxVlBcWx99KKB9qTPbIvRHnC6oebK/wBNtrdEUb
+m5MC/VJQ79FVbeubh089NIC69fU7608H28DnnkH3bHXeeyW1Np00Ld4Qxl90t6S2
+688NtXkO9/6CNXSmfqGUnZo/sSnIWtEqjo3/NvB1xgsyMaI3Ij08/0iJSbqyb+Hx
+6JdZaeWcn7tvylplcnW/AeaqWn/ckgn2XzwRFt6XmNI3zWb6bk8LiVvsT45ejQq2
+bZDqkh/dn/5p79moVZO3z17dFnA1SbHuPnPzUs+9kdLijoDepYvAHMUeyE9OOmhq
+CMy5UVGK4kZyRwMb2oqn/tzcV5I0u7V2l6ugsrOpY+3D88P+d6wlj7nI+btzh+Qf
+DiqXGs+VeN2vjhTvDOYUvnYlNiWRXBfpabK1PKv7+P3Bpuv4yKMavdfhxnbmyYK+
+vrAWxd+anPTkTsR9nzeVsLfQSMdyJ4OE5x+9XLu0M8Y9mvrsSGd/VNmDgEylW78m
+esj/wl2yK6txRb9/i9z61+XYiQ07li5/uvlv
+=Bg9f
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kavon
+
+==================================================================
