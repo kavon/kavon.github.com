@@ -11,6 +11,16 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>From folklore to fact: Comparing implementations of stacks and continuations</title>
+      <link>https://kavon.farvard.in/publication/stacks-pldi20/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kavon.farvard.in/publication/stacks-pldi20/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Weighing Continuations for Concurrency</title>
       <link>https://kavon.farvard.in/publication/masters/</link>
       <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
