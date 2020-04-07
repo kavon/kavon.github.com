@@ -17,10 +17,10 @@
       
     
   
-  <meta name="description" content="The efficient implementation of function calls and non-local control transfers is a critical part of modern language implementations and is important in the implementation of everything from recursion, higher-order functions, concurrency and coroutines, to task-based parallelism. In a compiler, these features can be supported by a variety of mechanisms, including call stacks, segmented stacks, and heap-allocated continuation closures. &lt;br /&gt; An implementor of a high-level language with advanced control features might ask the question &#34;what is the best choice for my implementation?&#34; Unfortunately, the current literature does not provide much guidance, since previous studies suffer from various flaws in methodology and are outdated for modern hardware. In the absence of recent, well-normalized measurements and a holistic overview of their implementation specifics, the path of least resistance when choosing a strategy is to trust folklore, but the folklore is also suspect. &lt;br /&gt; This paper attempts to remedy this situation by providing an &#34;apples-to-apples&#34; comparison of six different approaches to implementing call stacks and continuations. This comparison uses the same source language, compiler pipeline, LLVM-backend, and runtime system, with the only differences being those required by the differences in implementation strategy. We compare the implementation challenges of the different approaches, their sequential performance, and their suitability to support advanced control mechanisms, including supporting heavily threaded code. In addition to the comparison of implementation strategies, the paper&#39;s contributions also include a number of useful implementation techniques that we discovered along the way.">
+  <meta name="description" content="LLVM is an infrastructure for code generation and low-level optimizations, which has been gaining popularity as a backend for both research and industrial compilers, including many compilers for functional languages. While LLVM provides a relatively easy path to high-quality native code, its design is based on a traditional runtime model which is not well suited to alternative compilation strategies used in high-level language compilers, such as the use of heap-allocated continuation closures. &lt;br /&gt; This paper describes a new LLVM-based backend that supports heap-allocated continuation closures, which enables constant-time `callcc` and very-lightweight multithreading. The backend has been implemented in the Parallel ML compiler, which is part of the Manticore system, but the results should be useful for other compilers, such as Standard ML of New Jersey, that use heap-allocated continuation closures.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://kavon.farvard.in/publication/stacks-pldi20/">
+  <link rel="alternate" hreflang="en-us" href="https://kavon.farvard.in/publication/cwc-eptcs/">
 
   
 
@@ -82,7 +82,7 @@
   <link rel="icon" type="image/png" href="../../img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="../../img/icon-192.png">
 
-  <link rel="canonical" href="https://kavon.farvard.in/publication/stacks-pldi20/">
+  <link rel="canonical" href="https://kavon.farvard.in/publication/cwc-eptcs/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -90,19 +90,19 @@
   <meta property="twitter:creator" content="@call1cc">
   
   <meta property="og:site_name" content="Kavon Farvardin">
-  <meta property="og:url" content="https://kavon.farvard.in/publication/stacks-pldi20/">
-  <meta property="og:title" content="From folklore to fact: Comparing implementations of stacks and continuations | Kavon Farvardin">
-  <meta property="og:description" content="The efficient implementation of function calls and non-local control transfers is a critical part of modern language implementations and is important in the implementation of everything from recursion, higher-order functions, concurrency and coroutines, to task-based parallelism. In a compiler, these features can be supported by a variety of mechanisms, including call stacks, segmented stacks, and heap-allocated continuation closures. &lt;br /&gt; An implementor of a high-level language with advanced control features might ask the question &#34;what is the best choice for my implementation?&#34; Unfortunately, the current literature does not provide much guidance, since previous studies suffer from various flaws in methodology and are outdated for modern hardware. In the absence of recent, well-normalized measurements and a holistic overview of their implementation specifics, the path of least resistance when choosing a strategy is to trust folklore, but the folklore is also suspect. &lt;br /&gt; This paper attempts to remedy this situation by providing an &#34;apples-to-apples&#34; comparison of six different approaches to implementing call stacks and continuations. This comparison uses the same source language, compiler pipeline, LLVM-backend, and runtime system, with the only differences being those required by the differences in implementation strategy. We compare the implementation challenges of the different approaches, their sequential performance, and their suitability to support advanced control mechanisms, including supporting heavily threaded code. In addition to the comparison of implementation strategies, the paper&#39;s contributions also include a number of useful implementation techniques that we discovered along the way.">
+  <meta property="og:url" content="https://kavon.farvard.in/publication/cwc-eptcs/">
+  <meta property="og:title" content="Compiling with Continuations and LLVM | Kavon Farvardin">
+  <meta property="og:description" content="LLVM is an infrastructure for code generation and low-level optimizations, which has been gaining popularity as a backend for both research and industrial compilers, including many compilers for functional languages. While LLVM provides a relatively easy path to high-quality native code, its design is based on a traditional runtime model which is not well suited to alternative compilation strategies used in high-level language compilers, such as the use of heap-allocated continuation closures. &lt;br /&gt; This paper describes a new LLVM-based backend that supports heap-allocated continuation closures, which enables constant-time `callcc` and very-lightweight multithreading. The backend has been implemented in the Parallel ML compiler, which is part of the Manticore system, but the results should be useful for other compilers, such as Standard ML of New Jersey, that use heap-allocated continuation closures.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2020-03-03T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2018-09-22T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2020-03-03T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2018-09-22T00:00:00&#43;00:00">
   
 
-  <title>From folklore to fact: Comparing implementations of stacks and continuations | Kavon Farvardin</title>
+  
+
+  <title>Compiling with Continuations and LLVM | Kavon Farvardin</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -241,7 +241,7 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">From folklore to fact: Comparing implementations of stacks and continuations</h1>
+    <h1 itemprop="name">Compiling with Continuations and LLVM</h1>
     <span class="pub-authors" itemprop="author">
       
       Kavon Farvardin, John Reppy
@@ -253,35 +253,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=From%20folklore%20to%20fact%3a%20Comparing%20implementations%20of%20stacks%20and%20continuations&amp;url=https%3a%2f%2fkavon.farvard.in%2fpublication%2fstacks-pldi20%2f"
+         href="https://twitter.com/intent/tweet?text=Compiling%20with%20Continuations%20and%20LLVM&amp;url=https%3a%2f%2fkavon.farvard.in%2fpublication%2fcwc-eptcs%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fkavon.farvard.in%2fpublication%2fstacks-pldi20%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fkavon.farvard.in%2fpublication%2fcwc-eptcs%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fkavon.farvard.in%2fpublication%2fstacks-pldi20%2f&amp;title=From%20folklore%20to%20fact%3a%20Comparing%20implementations%20of%20stacks%20and%20continuations"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fkavon.farvard.in%2fpublication%2fcwc-eptcs%2f&amp;title=Compiling%20with%20Continuations%20and%20LLVM"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fkavon.farvard.in%2fpublication%2fstacks-pldi20%2f&amp;title=From%20folklore%20to%20fact%3a%20Comparing%20implementations%20of%20stacks%20and%20continuations"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fkavon.farvard.in%2fpublication%2fcwc-eptcs%2f&amp;title=Compiling%20with%20Continuations%20and%20LLVM"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=From%20folklore%20to%20fact%3a%20Comparing%20implementations%20of%20stacks%20and%20continuations&amp;body=https%3a%2f%2fkavon.farvard.in%2fpublication%2fstacks-pldi20%2f">
+         href="mailto:?subject=Compiling%20with%20Continuations%20and%20LLVM&amp;body=https%3a%2f%2fkavon.farvard.in%2fpublication%2fcwc-eptcs%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -295,7 +295,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">The efficient implementation of function calls and non-local control transfers is a critical part of modern language implementations and is important in the implementation of everything from recursion, higher-order functions, concurrency and coroutines, to task-based parallelism. In a compiler, these features can be supported by a variety of mechanisms, including call stacks, segmented stacks, and heap-allocated continuation closures. <br /> An implementor of a high-level language with advanced control features might ask the question &quot;what is the best choice for my implementation?&quot; Unfortunately, the current literature does not provide much guidance, since previous studies suffer from various flaws in methodology and are outdated for modern hardware. In the absence of recent, well-normalized measurements and a holistic overview of their implementation specifics, the path of least resistance when choosing a strategy is to trust folklore, but the folklore is also suspect. <br /> This paper attempts to remedy this situation by providing an &quot;apples-to-apples&quot; comparison of six different approaches to implementing call stacks and continuations. This comparison uses the same source language, compiler pipeline, LLVM-backend, and runtime system, with the only differences being those required by the differences in implementation strategy. We compare the implementation challenges of the different approaches, their sequential performance, and their suitability to support advanced control mechanisms, including supporting heavily threaded code. In addition to the comparison of implementation strategies, the paper's contributions also include a number of useful implementation techniques that we discovered along the way.</p>
+    <p class="pub-abstract" itemprop="text">LLVM is an infrastructure for code generation and low-level optimizations, which has been gaining popularity as a backend for both research and industrial compilers, including many compilers for functional languages. While LLVM provides a relatively easy path to high-quality native code, its design is based on a traditional runtime model which is not well suited to alternative compilation strategies used in high-level language compilers, such as the use of heap-allocated continuation closures. <br /> This paper describes a new LLVM-based backend that supports heap-allocated continuation closures, which enables constant-time <code>callcc</code> and very-lightweight multithreading. The backend has been implemented in the Parallel ML compiler, which is part of the Manticore system, but the results should be useful for other compilers, such as Standard ML of New Jersey, that use heap-allocated continuation closures.</p>
     
 
     
@@ -306,8 +306,8 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
           <div class="col-xs-12 col-sm-9">
             
-            <a href="../../publication/#1">
-              Conference paper
+            <a href="../../publication/#4">
+              Report
             </a>
             
           </div>
@@ -324,7 +324,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">In <em>41st ACM SIGPLAN Conference on Programming Language Design and Implementation</em>.</div>
+          <div class="col-xs-12 col-sm-9">In Kenichi Asai and Mark Shinwell, editors, Proceedings ML Family Workshop / OCaml Users and Developers workshops (September 22-23, 2016), Volume 285 of Electronic Proceedings in Theoretical Computer Science, pages 131--142. Open Publishing Association, 2018.</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -338,7 +338,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            March, 2020
+            September, 2018
           </div>
         </div>
       </div>
@@ -358,7 +358,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://kavon.farvard.in/papers/pldi20-stacks.pdf" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://kavon.farvard.in/papers/eptcs-cwc-llvm.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
