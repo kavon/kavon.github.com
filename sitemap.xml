@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
@@ -5,15 +6,6 @@
     <url>
     
       <loc>https://kavon.farvard.in/publication/stacks-pldi20/</loc>
-      <lastmod>2020-03-03T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://kavon.farvard.in/</loc>
       <lastmod>2020-03-03T00:00:00+00:00</lastmod>
     </url>
     
@@ -40,15 +32,6 @@
     
     <url>
     
-      <loc>https://kavon.farvard.in/talk/llvm18/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://kavon.farvard.in/talk/hiw17/</loc>
       <lastmod>2017-01-01T00:00:00-06:00</lastmod>
     </url>
@@ -68,6 +51,15 @@
     <url>
     
       <loc>https://kavon.farvard.in/talk/mwpls16/</loc>
+      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://kavon.farvard.in/talk/llvm18/</loc>
       <lastmod>2017-01-01T00:00:00-06:00</lastmod>
     </url>
     
@@ -113,6 +105,17 @@
     <url>
     
       <loc>https://kavon.farvard.in/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://kavon.farvard.in/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -121,6 +124,7 @@
     <url>
     
       <loc>https://kavon.farvard.in/tags/</loc>
+      <priority>0</priority>
     </url>
     
   
